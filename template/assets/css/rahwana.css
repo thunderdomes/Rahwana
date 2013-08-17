@@ -1,0 +1,12 @@
+body {
+  padding-top: 50px;
+  background: url(../image/bg-body.png) repeat;
+}
+.starter-template {
+margin: 0 auto;
+  text-align: center;
+  width: 960px;
+}
+.main-nav{
+	width: 960px;
+}
