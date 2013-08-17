@@ -1,28 +1,6 @@
-body {
-  padding-top: 50px;
-  background: url(../image/bg-body.png) repeat;
-}
-.page{
-	margin: 0 auto;
-  	width: 960px;
-  	margin-top: 20px;
-  	margin-bottom: 20px;
-  	overflow: hidden;
-
-}
-.main-nav{
-	width: 960px;
-}
-.main-wrap {
-	float: left;
-	width: 635px;
-	background: #000;
-	height: 1200px;
-}
-.sidebar-wrap{
-	float: right;
-	padding: 20px 0 0 60px;
-	width: 300px;
-	background: #ccc;
-	height: 1200px;
-}
+body{padding-top:50px;background:url(../image/bg-body.png) repeat}
+.page{margin:0 auto;width:960px;margin-top:20px;margin-bottom:20px;overflow:hidden}
+.main-nav{width:960px}
+.main-wrap{float:left;width:635px;overflow:hidden;height:1200px}.main-wrap .post{width:625px;overflow:hidden;padding:30px;padding-top:0;background:#fff;min-height:300px;margin-bottom:10px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;border:1px solid #efefef}.main-wrap .post img{width:565px}
+.main-wrap .post h2{font-size:22px;line-height:1.2em;color:#222}
+.sidebar-wrap{float:right;padding:20px 0 0 60px;width:300px;background:#ccc;height:1200px}
