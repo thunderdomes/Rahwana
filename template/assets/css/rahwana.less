@@ -1,0 +1,52 @@
+@import "mixin.less";
+body {
+  padding-top: 50px;
+  background: url(../image/bg-body.png) repeat;
+}
+.page{
+	margin: 0 auto;
+  	width: 960px;
+  	margin-top: 20px;
+  	margin-bottom: 20px;
+  	overflow: hidden;
+
+}
+.main-nav{
+	width: 960px;
+}
+.main-wrap {
+	float: left;
+	width: 635px;
+	overflow: hidden;
+	.post{
+		width: 625px;
+		overflow: hidden;
+		padding: 30px;
+		padding-top: 0px;
+		background: #fff;
+		min-height: 300px;
+		margin-bottom: 25px;
+		 .border-radius(4px,#efefef);
+		 img{
+		 	width: 565px;
+		 }
+		 h2{
+		 	font-size: 22px;
+			line-height: 1.2em;
+			color: #222;
+		 }
+	}
+}
+.sidebar-wrap{
+	float: right;
+	width: 310px;
+	overflow: hidden;
+	min-height: 300px;
+	.content{
+		width: 300px;
+		padding: 5px;
+		min-height: 200px;
+		background: #fff;
+		overflow: hidden;
+	}
+}

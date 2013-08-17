@@ -1,0 +1,1 @@
+$(function(){if(!!$(".sidebar-wrap").offset()){var e=$(".sidebar-wrap").offset().top;$(window).scroll(function(){var t=$(window).scrollTop();e<t?$(".sidebar-wrap").css({position:"fixed",top:0,right:0}):$(".sidebar-wrap").css("position","static")})}});
